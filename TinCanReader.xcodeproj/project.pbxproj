@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B1DE6066834593810BDC84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD50F0091934F2385BE895B /* libPods.a */; };
+		D372AC811733599300E92A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D372AC801733599300E92A3E /* UIKit.framework */; };
+		D372AC831733599300E92A3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D372AC821733599300E92A3E /* Foundation.framework */; };
+		D372AC851733599300E92A3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D372AC841733599300E92A3E /* CoreGraphics.framework */; };
+		D372AC8B1733599300E92A3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D372AC891733599300E92A3E /* InfoPlist.strings */; };
+		D372AC8D1733599300E92A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D372AC8C1733599300E92A3E /* main.m */; };
+		D372AC911733599300E92A3E /* TCRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D372AC901733599300E92A3E /* TCRAppDelegate.m */; };
+		D372AC931733599300E92A3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D372AC921733599300E92A3E /* Default.png */; };
+		D372AC951733599300E92A3E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D372AC941733599300E92A3E /* Default@2x.png */; };
+		D372AC971733599300E92A3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D372AC961733599300E92A3E /* Default-568h@2x.png */; };
+		D372AC9A1733599300E92A3E /* TCRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D372AC991733599300E92A3E /* TCRRootViewController.m */; };
+		D372AC9D1733599300E92A3E /* TCRDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D372AC9C1733599300E92A3E /* TCRDataViewController.m */; };
+		D372ACA01733599300E92A3E /* TCRModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D372AC9F1733599300E92A3E /* TCRModelController.m */; };
+		D372ACA31733599300E92A3E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D372ACA11733599300E92A3E /* MainStoryboard_iPhone.storyboard */; };
+		D372ACA61733599300E92A3E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D372ACA41733599300E92A3E /* MainStoryboard_iPad.storyboard */; };
+		D372ACAE1733599300E92A3E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D372ACAD1733599300E92A3E /* SenTestingKit.framework */; };
+		D372ACAF1733599300E92A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D372AC801733599300E92A3E /* UIKit.framework */; };
+		D372ACB01733599300E92A3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D372AC821733599300E92A3E /* Foundation.framework */; };
+		D372ACB81733599300E92A3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D372ACB61733599300E92A3E /* InfoPlist.strings */; };
+		D372ACBB1733599300E92A3E /* TinCanReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D372ACBA1733599300E92A3E /* TinCanReaderTests.m */; };
+		D372ACE91733609C00E92A3E /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D372ACE51733609C00E92A3E /* PDFScrollView.m */; };
+		D372ACEA1733609C00E92A3E /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = D372ACE71733609C00E92A3E /* TiledPDFView.m */; };
+		D372ACEF1733725D00E92A3E /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D372ACEC1733725D00E92A3E /* ContentViewController.m */; };
+		D372ACF01733725D00E92A3E /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D372ACEE1733725D00E92A3E /* PageViewController.m */; };
+		D372ACF31733732100E92A3E /* TCRChoosePdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D372ACF21733732100E92A3E /* TCRChoosePdfViewController.m */; };
+		D372ACF5173374C900E92A3E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D372ACF4173374C900E92A3E /* QuartzCore.framework */; };
+		D372AD801738A6A600E92A3E /* CommentPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D372AD7F1738A6A600E92A3E /* CommentPopoverViewController.m */; };
+		D372AD83173F488C00E92A3E /* TCRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D372AD82173F488C00E92A3E /* TCRTableViewController.m */; };
+		D372AD86173F494200E92A3E /* TCRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D372AD85173F494200E92A3E /* TCRTableViewCell.m */; };
+		D372AD89173F4C3500E92A3E /* TCRDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D372AD88173F4C3500E92A3E /* TCRDownloadViewController.m */; };
+		D372AD8C173F4E9000E92A3E /* TCRUserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D372AD8B173F4E9000E92A3E /* TCRUserLoginViewController.m */; };
+		D372AD90173F5E2A00E92A3E /* libRSTCAPI-Combined.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D372AD8F173F5E2A00E92A3E /* libRSTCAPI-Combined.a */; };
+		D372AD92173F64A900E92A3E /* pdf.png in Resources */ = {isa = PBXBuildFile; fileRef = D372AD91173F64A900E92A3E /* pdf.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D372ACB11733599300E92A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D372AC751733599300E92A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D372AC7C1733599300E92A3E;
+			remoteInfo = TinCanReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B3661683D649B99533C7AF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		2FD50F0091934F2385BE895B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D372AC7D1733599300E92A3E /* TinCanReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinCanReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D372AC801733599300E92A3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D372AC821733599300E92A3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D372AC841733599300E92A3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D372AC881733599300E92A3E /* TinCanReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinCanReader-Info.plist"; sourceTree = "<group>"; };
+		D372AC8A1733599300E92A3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D372AC8C1733599300E92A3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D372AC8E1733599300E92A3E /* TinCanReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinCanReader-Prefix.pch"; sourceTree = "<group>"; };
+		D372AC8F1733599300E92A3E /* TCRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCRAppDelegate.h; sourceTree = "<group>"; };
+		D372AC901733599300E92A3E /* TCRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCRAppDelegate.m; sourceTree = "<group>"; };
+		D372AC921733599300E92A3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D372AC941733599300E92A3E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D372AC961733599300E92A3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D372AC981733599300E92A3E /* TCRRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCRRootViewController.h; sourceTree = "<group>"; };
+		D372AC991733599300E92A3E /* TCRRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCRRootViewController.m; sourceTree = "<group>"; };
+		D372AC9B1733599300E92A3E /* TCRDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCRDataViewController.h; sourceTree = "<group>"; };
+		D372AC9C1733599300E92A3E /* TCRDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCRDataViewController.m; sourceTree = "<group>"; };
+		D372AC9E1733599300E92A3E /* TCRModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCRModelController.h; sourceTree = "<group>"; };
+		D372AC9F1733599300E92A3E /* TCRModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCRModelController.m; sourceTree = "<group>"; };
+		D372ACA21733599300E92A3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D372ACA51733599300E92A3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D372ACAC1733599300E92A3E /* TinCanReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinCanReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D372ACAD1733599300E92A3E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D372ACB51733599300E92A3E /* TinCanReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinCanReaderTests-Info.plist"; sourceTree = "<group>"; };
+		D372ACB71733599300E92A3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D372ACB91733599300E92A3E /* TinCanReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinCanReaderTests.h; sourceTree = "<group>"; };
+		D372ACBA1733599300E92A3E /* TinCanReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinCanReaderTests.m; sourceTree = "<group>"; };
+		D372ACD217335BF300E92A3E /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		D372ACD317335BF300E92A3E /* RSTCAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTCAPI.h; sourceTree = "<group>"; };
+		D372ACD417335BF300E92A3E /* RSTinCanConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTinCanConnector.h; sourceTree = "<group>"; };
+		D372ACD517335BF300E92A3E /* TCActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCActivity.h; sourceTree = "<group>"; };
+		D372ACD617335BF300E92A3E /* TCActivityDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCActivityDefinition.h; sourceTree = "<group>"; };
+		D372ACD717335BF300E92A3E /* TCAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAgent.h; sourceTree = "<group>"; };
+		D372ACD817335BF300E92A3E /* TCAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAttachment.h; sourceTree = "<group>"; };
+		D372ACD917335BF300E92A3E /* TCContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCContext.h; sourceTree = "<group>"; };
+		D372ACDA17335BF300E92A3E /* TCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCError.h; sourceTree = "<group>"; };
+		D372ACDB17335BF300E92A3E /* TCLocalizedValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLocalizedValues.h; sourceTree = "<group>"; };
+		D372ACDC17335BF300E92A3E /* TCLRS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLRS.h; sourceTree = "<group>"; };
+		D372ACDD17335BF300E92A3E /* TCQueryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCQueryOptions.h; sourceTree = "<group>"; };
+		D372ACDE17335BF300E92A3E /* TCState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCState.h; sourceTree = "<group>"; };
+		D372ACE017335BF300E92A3E /* TCStatementCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCStatementCollection.h; sourceTree = "<group>"; };
+		D372ACE117335BF300E92A3E /* TCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUtil.h; sourceTree = "<group>"; };
+		D372ACE217335BF300E92A3E /* TCVerb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCVerb.h; sourceTree = "<group>"; };
+		D372ACE41733609C00E92A3E /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		D372ACE51733609C00E92A3E /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		D372ACE61733609C00E92A3E /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		D372ACE71733609C00E92A3E /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		D372ACEB1733725D00E92A3E /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		D372ACEC1733725D00E92A3E /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		D372ACED1733725D00E92A3E /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		D372ACEE1733725D00E92A3E /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		D372ACF11733732100E92A3E /* TCRChoosePdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRChoosePdfViewController.h; sourceTree = "<group>"; };
+		D372ACF21733732100E92A3E /* TCRChoosePdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRChoosePdfViewController.m; sourceTree = "<group>"; };
+		D372ACF4173374C900E92A3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D372ACF71734324C00E92A3E /* TCAttachmentCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAttachmentCollection.h; sourceTree = "<group>"; };
+		D372AD7E1738A6A600E92A3E /* CommentPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentPopoverViewController.h; sourceTree = "<group>"; };
+		D372AD7F1738A6A600E92A3E /* CommentPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentPopoverViewController.m; sourceTree = "<group>"; };
+		D372AD81173F488C00E92A3E /* TCRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRTableViewController.h; sourceTree = "<group>"; };
+		D372AD82173F488C00E92A3E /* TCRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRTableViewController.m; sourceTree = "<group>"; };
+		D372AD84173F494200E92A3E /* TCRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRTableViewCell.h; sourceTree = "<group>"; };
+		D372AD85173F494200E92A3E /* TCRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRTableViewCell.m; sourceTree = "<group>"; };
+		D372AD87173F4C3500E92A3E /* TCRDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRDownloadViewController.h; sourceTree = "<group>"; };
+		D372AD88173F4C3500E92A3E /* TCRDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRDownloadViewController.m; sourceTree = "<group>"; };
+		D372AD8A173F4E9000E92A3E /* TCRUserLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRUserLoginViewController.h; sourceTree = "<group>"; };
+		D372AD8B173F4E9000E92A3E /* TCRUserLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRUserLoginViewController.m; sourceTree = "<group>"; };
+		D372AD8E173F5E1E00E92A3E /* TCStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCStatement.h; sourceTree = "<group>"; };
+		D372AD8F173F5E2A00E92A3E /* libRSTCAPI-Combined.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libRSTCAPI-Combined.a"; path = "../../../../git-working/TinCanObjC/Build/libRSTCAPI-Combined.a"; sourceTree = "<group>"; };
+		D372AD91173F64A900E92A3E /* pdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdf.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D372AC7A1733599300E92A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372ACF5173374C900E92A3E /* QuartzCore.framework in Frameworks */,
+				D372AC811733599300E92A3E /* UIKit.framework in Frameworks */,
+				D372AC831733599300E92A3E /* Foundation.framework in Frameworks */,
+				D372AC851733599300E92A3E /* CoreGraphics.framework in Frameworks */,
+				74B1DE6066834593810BDC84 /* libPods.a in Frameworks */,
+				D372AD90173F5E2A00E92A3E /* libRSTCAPI-Combined.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372ACA81733599300E92A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372ACAE1733599300E92A3E /* SenTestingKit.framework in Frameworks */,
+				D372ACAF1733599300E92A3E /* UIKit.framework in Frameworks */,
+				D372ACB01733599300E92A3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D372AC741733599300E92A3E = {
+			isa = PBXGroup;
+			children = (
+				D372AD8F173F5E2A00E92A3E /* libRSTCAPI-Combined.a */,
+				D372ACD017335BF300E92A3E /* include */,
+				D372AC861733599300E92A3E /* TinCanReader */,
+				D372ACB31733599300E92A3E /* TinCanReaderTests */,
+				D372AC7F1733599300E92A3E /* Frameworks */,
+				D372AC7E1733599300E92A3E /* Products */,
+				18B3661683D649B99533C7AF /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D372AC7E1733599300E92A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D372AC7D1733599300E92A3E /* TinCanReader.app */,
+				D372ACAC1733599300E92A3E /* TinCanReaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D372AC7F1733599300E92A3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D372ACF4173374C900E92A3E /* QuartzCore.framework */,
+				D372AC801733599300E92A3E /* UIKit.framework */,
+				D372AC821733599300E92A3E /* Foundation.framework */,
+				D372AC841733599300E92A3E /* CoreGraphics.framework */,
+				D372ACAD1733599300E92A3E /* SenTestingKit.framework */,
+				2FD50F0091934F2385BE895B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D372AC861733599300E92A3E /* TinCanReader */ = {
+			isa = PBXGroup;
+			children = (
+				D372AD7E1738A6A600E92A3E /* CommentPopoverViewController.h */,
+				D372AD7F1738A6A600E92A3E /* CommentPopoverViewController.m */,
+				D372ACEB1733725D00E92A3E /* ContentViewController.h */,
+				D372ACEC1733725D00E92A3E /* ContentViewController.m */,
+				D372ACED1733725D00E92A3E /* PageViewController.h */,
+				D372ACEE1733725D00E92A3E /* PageViewController.m */,
+				D372AC8F1733599300E92A3E /* TCRAppDelegate.h */,
+				D372AC901733599300E92A3E /* TCRAppDelegate.m */,
+				D372AC981733599300E92A3E /* TCRRootViewController.h */,
+				D372AC991733599300E92A3E /* TCRRootViewController.m */,
+				D372AC9B1733599300E92A3E /* TCRDataViewController.h */,
+				D372AC9C1733599300E92A3E /* TCRDataViewController.m */,
+				D372AC9E1733599300E92A3E /* TCRModelController.h */,
+				D372AC9F1733599300E92A3E /* TCRModelController.m */,
+				D372ACF11733732100E92A3E /* TCRChoosePdfViewController.h */,
+				D372ACF21733732100E92A3E /* TCRChoosePdfViewController.m */,
+				D372AD8D173F4F5000E92A3E /* apple */,
+				D372ACA11733599300E92A3E /* MainStoryboard_iPhone.storyboard */,
+				D372ACA41733599300E92A3E /* MainStoryboard_iPad.storyboard */,
+				D372AC871733599300E92A3E /* Supporting Files */,
+				D372AD81173F488C00E92A3E /* TCRTableViewController.h */,
+				D372AD82173F488C00E92A3E /* TCRTableViewController.m */,
+				D372AD84173F494200E92A3E /* TCRTableViewCell.h */,
+				D372AD85173F494200E92A3E /* TCRTableViewCell.m */,
+				D372AD87173F4C3500E92A3E /* TCRDownloadViewController.h */,
+				D372AD88173F4C3500E92A3E /* TCRDownloadViewController.m */,
+				D372AD8A173F4E9000E92A3E /* TCRUserLoginViewController.h */,
+				D372AD8B173F4E9000E92A3E /* TCRUserLoginViewController.m */,
+			);
+			path = TinCanReader;
+			sourceTree = "<group>";
+		};
+		D372AC871733599300E92A3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D372AD91173F64A900E92A3E /* pdf.png */,
+				D372AC881733599300E92A3E /* TinCanReader-Info.plist */,
+				D372AC891733599300E92A3E /* InfoPlist.strings */,
+				D372AC8C1733599300E92A3E /* main.m */,
+				D372AC8E1733599300E92A3E /* TinCanReader-Prefix.pch */,
+				D372AC921733599300E92A3E /* Default.png */,
+				D372AC941733599300E92A3E /* Default@2x.png */,
+				D372AC961733599300E92A3E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D372ACB31733599300E92A3E /* TinCanReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D372ACB91733599300E92A3E /* TinCanReaderTests.h */,
+				D372ACBA1733599300E92A3E /* TinCanReaderTests.m */,
+				D372ACB41733599300E92A3E /* Supporting Files */,
+			);
+			path = TinCanReaderTests;
+			sourceTree = "<group>";
+		};
+		D372ACB41733599300E92A3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D372ACB51733599300E92A3E /* TinCanReaderTests-Info.plist */,
+				D372ACB61733599300E92A3E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D372ACD017335BF300E92A3E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D372ACD117335BF300E92A3E /* RSTCAPI */,
+			);
+			name = include;
+			path = "../../../../git-working/TinCanObjC/Build/Release-iphoneos/include";
+			sourceTree = "<group>";
+		};
+		D372ACD117335BF300E92A3E /* RSTCAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D372AD8E173F5E1E00E92A3E /* TCStatement.h */,
+				D372ACF71734324C00E92A3E /* TCAttachmentCollection.h */,
+				D372ACD217335BF300E92A3E /* Base64.h */,
+				D372ACD317335BF300E92A3E /* RSTCAPI.h */,
+				D372ACD417335BF300E92A3E /* RSTinCanConnector.h */,
+				D372ACD517335BF300E92A3E /* TCActivity.h */,
+				D372ACD617335BF300E92A3E /* TCActivityDefinition.h */,
+				D372ACD717335BF300E92A3E /* TCAgent.h */,
+				D372ACD817335BF300E92A3E /* TCAttachment.h */,
+				D372ACD917335BF300E92A3E /* TCContext.h */,
+				D372ACDA17335BF300E92A3E /* TCError.h */,
+				D372ACDB17335BF300E92A3E /* TCLocalizedValues.h */,
+				D372ACDC17335BF300E92A3E /* TCLRS.h */,
+				D372ACDD17335BF300E92A3E /* TCQueryOptions.h */,
+				D372ACDE17335BF300E92A3E /* TCState.h */,
+				D372ACE017335BF300E92A3E /* TCStatementCollection.h */,
+				D372ACE117335BF300E92A3E /* TCUtil.h */,
+				D372ACE217335BF300E92A3E /* TCVerb.h */,
+			);
+			path = RSTCAPI;
+			sourceTree = "<group>";
+		};
+		D372AD8D173F4F5000E92A3E /* apple */ = {
+			isa = PBXGroup;
+			children = (
+				D372ACE41733609C00E92A3E /* PDFScrollView.h */,
+				D372ACE51733609C00E92A3E /* PDFScrollView.m */,
+				D372ACE61733609C00E92A3E /* TiledPDFView.h */,
+				D372ACE71733609C00E92A3E /* TiledPDFView.m */,
+			);
+			name = apple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D372AC7C1733599300E92A3E /* TinCanReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D372ACBE1733599300E92A3E /* Build configuration list for PBXNativeTarget "TinCanReader" */;
+			buildPhases = (
+				D372AC791733599300E92A3E /* Sources */,
+				D372AC7A1733599300E92A3E /* Frameworks */,
+				D372AC7B1733599300E92A3E /* Resources */,
+				8587C85BAFFE4E3DA07A13FC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinCanReader;
+			productName = TinCanReader;
+			productReference = D372AC7D1733599300E92A3E /* TinCanReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D372ACAB1733599300E92A3E /* TinCanReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D372ACC11733599300E92A3E /* Build configuration list for PBXNativeTarget "TinCanReaderTests" */;
+			buildPhases = (
+				D372ACA71733599300E92A3E /* Sources */,
+				D372ACA81733599300E92A3E /* Frameworks */,
+				D372ACA91733599300E92A3E /* Resources */,
+				D372ACAA1733599300E92A3E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D372ACB21733599300E92A3E /* PBXTargetDependency */,
+			);
+			name = TinCanReaderTests;
+			productName = TinCanReaderTests;
+			productReference = D372ACAC1733599300E92A3E /* TinCanReaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D372AC751733599300E92A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TCR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brian Rogers";
+			};
+			buildConfigurationList = D372AC781733599300E92A3E /* Build configuration list for PBXProject "TinCanReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D372AC741733599300E92A3E;
+			productRefGroup = D372AC7E1733599300E92A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D372AC7C1733599300E92A3E /* TinCanReader */,
+				D372ACAB1733599300E92A3E /* TinCanReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D372AC7B1733599300E92A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372AC8B1733599300E92A3E /* InfoPlist.strings in Resources */,
+				D372AC931733599300E92A3E /* Default.png in Resources */,
+				D372AC951733599300E92A3E /* Default@2x.png in Resources */,
+				D372AC971733599300E92A3E /* Default-568h@2x.png in Resources */,
+				D372ACA31733599300E92A3E /* MainStoryboard_iPhone.storyboard in Resources */,
+				D372ACA61733599300E92A3E /* MainStoryboard_iPad.storyboard in Resources */,
+				D372AD92173F64A900E92A3E /* pdf.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372ACA91733599300E92A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372ACB81733599300E92A3E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8587C85BAFFE4E3DA07A13FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		D372ACAA1733599300E92A3E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D372AC791733599300E92A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372AC8D1733599300E92A3E /* main.m in Sources */,
+				D372AC911733599300E92A3E /* TCRAppDelegate.m in Sources */,
+				D372AC9A1733599300E92A3E /* TCRRootViewController.m in Sources */,
+				D372AC9D1733599300E92A3E /* TCRDataViewController.m in Sources */,
+				D372ACA01733599300E92A3E /* TCRModelController.m in Sources */,
+				D372ACE91733609C00E92A3E /* PDFScrollView.m in Sources */,
+				D372ACEA1733609C00E92A3E /* TiledPDFView.m in Sources */,
+				D372ACEF1733725D00E92A3E /* ContentViewController.m in Sources */,
+				D372ACF01733725D00E92A3E /* PageViewController.m in Sources */,
+				D372ACF31733732100E92A3E /* TCRChoosePdfViewController.m in Sources */,
+				D372AD801738A6A600E92A3E /* CommentPopoverViewController.m in Sources */,
+				D372AD83173F488C00E92A3E /* TCRTableViewController.m in Sources */,
+				D372AD86173F494200E92A3E /* TCRTableViewCell.m in Sources */,
+				D372AD89173F4C3500E92A3E /* TCRDownloadViewController.m in Sources */,
+				D372AD8C173F4E9000E92A3E /* TCRUserLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372ACA71733599300E92A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372ACBB1733599300E92A3E /* TinCanReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D372ACB21733599300E92A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D372AC7C1733599300E92A3E /* TinCanReader */;
+			targetProxy = D372ACB11733599300E92A3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D372AC891733599300E92A3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D372AC8A1733599300E92A3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D372ACA11733599300E92A3E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D372ACA21733599300E92A3E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D372ACA41733599300E92A3E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D372ACA51733599300E92A3E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D372ACB61733599300E92A3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D372ACB71733599300E92A3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D372ACBC1733599300E92A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D372ACBD1733599300E92A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D372ACBF1733599300E92A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B3661683D649B99533C7AF /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinCanReader/TinCanReader-Prefix.pch";
+				INFOPLIST_FILE = "TinCanReader/TinCanReader-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/git-working/TinCanObjC/Build\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D372ACC01733599300E92A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B3661683D649B99533C7AF /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinCanReader/TinCanReader-Prefix.pch";
+				INFOPLIST_FILE = "TinCanReader/TinCanReader-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/git-working/TinCanObjC/Build\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D372ACC21733599300E92A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TinCanReader.app/TinCanReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinCanReader/TinCanReader-Prefix.pch";
+				INFOPLIST_FILE = "TinCanReaderTests/TinCanReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D372ACC31733599300E92A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TinCanReader.app/TinCanReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinCanReader/TinCanReader-Prefix.pch";
+				INFOPLIST_FILE = "TinCanReaderTests/TinCanReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D372AC781733599300E92A3E /* Build configuration list for PBXProject "TinCanReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D372ACBC1733599300E92A3E /* Debug */,
+				D372ACBD1733599300E92A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D372ACBE1733599300E92A3E /* Build configuration list for PBXNativeTarget "TinCanReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D372ACBF1733599300E92A3E /* Debug */,
+				D372ACC01733599300E92A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D372ACC11733599300E92A3E /* Build configuration list for PBXNativeTarget "TinCanReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D372ACC21733599300E92A3E /* Debug */,
+				D372ACC31733599300E92A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D372AC751733599300E92A3E /* Project object */;
+}

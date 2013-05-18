@@ -1,0 +1,24 @@
+
+COCOAPODS: 0.16.2
+
+PODS: 
+- AFDownloadRequestOperation (0.0.2): 
+  - AFNetworking (>= 1.1)
+- AFNetworking (1.2.1)
+- Colours (0.0.1)
+- NVUIGradientButton (1.3.0)
+- Reachability (3.1.0)
+
+SPEC CHECKSUMS: 
+  AFNetworking: 616da0028916ce296f5c3cef74e5552eb4e10e13
+  Colours: df95f665a540198632c804b8517b775a70485fd9
+  Reachability: ba94ecd4eaa037be3d0588b38956672588530c5b
+  NVUIGradientButton: d50ae9fcd85a65e2cad9c49c2000798be1e5035f
+  AFDownloadRequestOperation: f8ec82ee8a6273defa5e3a74fdd0be9b0d937fde
+
+DEPENDENCIES: 
+- AFDownloadRequestOperation (~> 0.0.1)
+- AFNetworking (~> 1.0)
+- Colours (~> 0.0.1)
+- NVUIGradientButton (~> 1.3.0)
+- Reachability (~> 3.1.0)
