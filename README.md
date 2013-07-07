@@ -12,6 +12,6 @@ This is purely an example and not meant to be a full application. I built it ove
 Open with XCode and update AppDelegate.m with LRS url and auth.
 
 
-Acknowledgments
+##Acknowledgments
 
 TCReader uses the open source TinCanObjC library - http://github.com/RusticiSoftware/TinCanObjC
