@@ -11,6 +11,9 @@ This is purely an example and not meant to be a full application. I built it ove
   
 Open with XCode and update AppDelegate.m with LRS url and auth.
 
+##License
+
+TCReader is built with a few other open source contributions pieced together. The app code is MIT licensed but other parts may have other licenses as listed in the header files.
 
 ##Acknowledgments
 
